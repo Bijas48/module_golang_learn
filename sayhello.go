@@ -1,5 +1,5 @@
 package modulelearngo
 
-func SayHello() string {
-	return "Hello World"
+func SayHello(n string) string {
+	return "Hello World " + n
 }
